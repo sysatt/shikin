@@ -2623,7 +2623,7 @@
                         setTimeout(() => { printWin.print(); }, 600); }; } else { doc.save('LAPORAN-KEHADIRAN-' + (kelasFilter === 'ALL' ? 'SEMUA' : kelasFilter) + '-' + range.from + '.pdf');
                     toast('Popup disekat — fail dimuat turun terus.', 'ok'); } }
 
-            (function() { const CORRECT = '289481'; const SESSION_KEY = 'attend-auth'; const LOCK_KEY = 'attend-lock'; const MAX_TRIES = 5; let tries = 0; let lockTimer = null;
+            (function() { const CORRECT = '284481'; const SESSION_KEY = 'attend-auth'; const LOCK_KEY = 'attend-lock'; const MAX_TRIES = 5; let tries = 0; let lockTimer = null;
 
                 function isAuthed() { try { return sessionStorage.getItem(SESSION_KEY) === '1'; } catch (e) { return false; } }
 
